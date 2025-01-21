@@ -1,13 +1,12 @@
 
-const increament = ()=>{
+export const increament = ()=>{
    return {
         type : "INCREAMENT"
    } 
 }
-const decreament = ()=>{
+export const decreament = ()=>{
    return {
         type : "DECREAMENT"
    } 
 }
 
-export { increament , decreament }
